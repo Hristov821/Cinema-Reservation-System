@@ -1,4 +1,7 @@
-from ReservationControler import *
+from Controlers.ReservationControler import *
+from Controlers.UserControler import *
+from Controlers.MovieControler import *
+from Controlers.ProjectionsControler import *
 # from MovieControler import MovieControler
 def start():
     UserControler.register_user('Ivan', 'PAROLA')
